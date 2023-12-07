@@ -1,0 +1,46 @@
+.card-container {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+}
+
+.genere-tag {
+    margin-top: 10px;
+}
+
+.movie-card {
+    display: flex;
+    padding: 5px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.movie-card::-webkit-scrollbar {
+    display: none;
+}
+
+.card-image {
+    max-width: 300px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.card-image:hover {
+    transform: scale(1.1);
+}
+
+.card-image-small {
+    max-width: 200px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.card-image-small:hover {
+    transform: scale(1.1);
+}
+
+
+.movie-card-star {
+    color: yellow;
+    padding: 5px;
+}
